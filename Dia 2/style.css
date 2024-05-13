@@ -1,0 +1,99 @@
+.bordes {
+
+    position: relative;
+    height: 14vh;
+    width: 612px; 
+    margin: 0 auto;
+    padding-bottom: 600px;
+    border: 5px solid #000; 
+    border-radius: 0px; 
+    background-color: #fff; 
+    
+}
+.circulito {
+    
+    align-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 5px solid black;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.personal {
+
+    text-align: center;
+    width: 180px;
+    height: 330px;
+    border-radius: 0px;
+    border: 5px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.nose {
+
+    align-content: center;
+    width: 180px;
+    height: 130px;
+    border-radius: 0px;
+    border: 5px solid black;
+    margin-left: 20px;
+    margin-top: 10px;  
+
+}
+
+.academica {
+
+    position: absolute;
+    text-align: center;
+    width: 160px;
+    height: 300px;
+    border-radius: 0px;
+    border: 5px solid black;
+    left: 230px;
+    top: 20px;
+
+}
+
+.habilidades {
+
+    position: absolute;
+    align-content: center;
+    width: 160px;
+    height: 355px;
+    border-radius: 0px;
+    border: 5px solid black;
+    left: 230px;
+    top: 325px;
+
+}
+
+.proyecto {
+
+    position: absolute;
+    align-content: center;
+    width: 160px;
+    height: 655px;
+    border-radius: 0px;
+    border: 5px solid black;
+    left: 420px;
+    top: 20px;
+
+}
+
+.imagen {
+
+    position: absolute;
+    align-content: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    border: 5px solid black;
+    left: 30px;
+    top: 92px;
+
+}
