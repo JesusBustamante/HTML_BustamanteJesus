@@ -1,0 +1,45 @@
+.black img {
+    top:0px;
+    width: 1918.33px;
+    height: 4149px;
+}
+
+.fondo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+}
+
+.search img {
+    position: absolute;
+    top: 37.5px;
+    left: 63.43px;
+    width: 36px;
+    height: 36px;
+}
+
+.logo img {
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+}
+
+.login img {
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+}
+
+.registro img {
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+}
