@@ -1,15 +1,28 @@
-.black img {
-    top:0px;
-    width: 1918.33px;
-    height: 4149px;
+@font-face {
+    font-family: elight;
+    src: url(fonts/Ember/AmazonEmber_Lt.ttf);
 }
 
-.fondo {
-    position: absolute;
+@font-face {
+    font-family: ebold;
+    src: url(fonts/Ember/AmazonEmber_Bd.ttf);
+}
+
+.black img {
     top: 0px;
-    left: 0px;
+    left: 2px;
+    width: 1918.33px;
+    height: 4149px;
+    border: 1px solid #707070;
+}
+
+.fondo img {
+    position: absolute;
+    top: 8px;
+    left: 6px;
     width: 1920px;
     height: 1080px;
+    background: transparent url('img/FondoTwitch.png') 0% 0% no-repeat padding-box;
 }
 
 .search img {
@@ -22,8 +35,8 @@
 
 .logo img {
     position: absolute;
-    top: 227px;
-    left: 682px;
+    top: 235px;
+    left: 690px;
     width: 556px;
     height: 313px;
 }
@@ -38,8 +51,316 @@
 
 .registro img {
     position: absolute;
-    top: 755px;
-    left: 730px;
+    top: 770px;
+    left: 740px;
     width: 458px;
     height: 104px;
+}
+
+.letra p {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    top: 25px;
+    left: 1773px;
+    font-size: 20px;
+    font-family: elight;
+    color: black;
+    opacity: 1;
+}
+
+.favorite p {
+    position: absolute;
+    text-align: left;
+    width: 1151px;
+    height: 60px;
+    top: 455px;
+    left: 400px;
+    font-size: 60px;
+    font-family: ebold;
+    color: white;
+    opacity: 1;
+}
+
+.texto p {
+    position: absolute;
+    text-align: center;
+    top: 585px;
+    left: 385px;
+    width: 1160px;
+    height: 102px;
+    font-size: 32px;
+    font-family: elight;
+    color: white;
+    opacity: 1;
+}
+
+.sing {
+    position: absolute;
+    text-align: center;
+    top: 758px;
+    left: 790px;
+    width: 360px;
+    height: 40px;
+    font-size: 40px;
+    font-family: elight;
+    color: black;
+    opacity: 1;
+}
+
+.tv {
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent url('img/Group 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.movies {
+    position: absolute;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+}
+
+.watch {
+    position: absolute;
+    top: 1700px;
+    left: 135px;
+    width: 1664px;
+    height: 60px;
+    font-size: 60px;
+    font-family: ebold;
+    color: white;
+    background: transparent url('img/Don’t like to watch Live? No problem , we got you covered.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.track {
+    position: absolute;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.redot {
+    position: absolute;
+    top: 1896px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.soul {
+    position: absolute;
+    top: 1896px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.tentacle {
+    position: absolute;
+    top: 1896px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.sentinella {
+    position: absolute;
+    top: 1896px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.variety {
+    position: absolute;
+    text-align: center;
+    top: 2230px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
+    font-size: 50px;
+    font-family: elight;
+    color: white;
+    opacity: 1;
+}
+
+.blue {
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+}
+
+.cancel {
+    position: absolute;
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+    background: transparent url('recursos/cancel.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.textCancel {
+    position: absolute;
+    top: 2470px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    font-size: 60px;
+    font-family: ebold;
+    color: white;
+    opacity: 1;
+}
+
+.cancelText {
+    position: absolute;
+    text-align: center;
+    top: 2840px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    font-size: 40px;
+    font-family: elight;
+    color: white;
+    opacity: 1;
+}
+
+.device {
+    position: absolute;
+    text-align: center;
+    top: 2960px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    font-size: 125px;
+    font-family: elight;
+    color: white;
+    opacity: 1;
+}
+
+.range {
+    position: absolute;
+    text-align: center;
+    top: 3230px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    font-size: 45px;
+    font-family: elight;
+    color: white;
+    opacity: 1;
+}
+
+.mac {
+    position: absolute;
+    top: 3440px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    background: transparent url('recursos/mac.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.iphone {
+    position: absolute;
+    top: 3606px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+    background: transparent url('recursos/iphone.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.pc {
+    position: absolute;
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+    background: transparent url('recursos/pc.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.flecha {
+    position: absolute;
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+    transform: matrix(0.03, 1, 0.03, 0, 0);
+    background: transparent url('recursos/Flecha.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.flecha2 {
+    position: absolute;
+    top: 3702px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    transform: rotate(180deg);
+    background: transparent url('recursos/Flecha.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.cace {
+    position: absolute;
+    top: 3954px;
+    left: 826px;
+    width: 430px;
+    height: 241px;
+    background: transparent url('img/Logo CACE Invertido UP.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.poweredby {
+    position: absolute;
+    top: 3979px;
+    left: 843px;
+    width: 92px;
+    height: 20px;
+    background: transparent url('img/Powered by.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.terms {
+    position: absolute;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
