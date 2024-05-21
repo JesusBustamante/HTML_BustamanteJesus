@@ -450,3 +450,95 @@ body {
     left: 1035px;
     color: #fff;
 }
+
+.links{
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 45px;
+    top: 5020px;
+    left: 250px;
+    color: #fff;
+}
+
+.our {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 45px;
+    top: 5020px;
+    left: 630px;
+    color: #fff;
+}
+
+.information {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 45px;
+    top: 5020px;
+    left: 1080px;
+    color: #fff;
+}
+
+.contactus {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 45px;
+    top: 5020px;
+    left: 1600px;
+    color: #fff;
+}
+
+.conjunto {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 35px;
+    top: 5120px;
+    left: 260px;
+    color: #fff;
+}
+
+.conjunto1 {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 35px;
+    top: 5120px;
+    left: 645px;
+    color: #fff; 
+}
+
+.conjunto2 {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 35px;
+    top: 5120px;
+    left: 1100px;
+    color: #fff;
+}
+
+
+.facebook img {
+    position: absolute;
+    width: 50px;
+    top: 5170px;
+    left: 1610px;
+}
+
+.instagram img {
+    position: absolute;
+    width: 50px;
+    top: 5170px;
+    left: 1670px;
+}
+
+.twitter img {
+    position: absolute;
+    width: 50px;
+    top: 5170px;
+    left: 1730px;
+}
+
+.whatsapp img {
+    position: absolute;
+    width: 50px;
+    top: 5170px;
+    left: 1790px;
+}
