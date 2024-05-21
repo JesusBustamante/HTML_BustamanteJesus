@@ -1,3 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=estaEs:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: estaEs;
+    src: url(font/Cascadia.ttf);
+}
+
 body {
     background-color: #1e1d2b;
+    width: 1920px;
+    height: 4000px;
+}
+
+
+.food {
+    position: absolute;
+    top: -25px;
+    left: 145px;
+    font-family: estaEs;
+    font-size: 60px;
+    color: #ff702a;
+}
+
+.home {
+    position: absolute;
+    top: 30px;
+    left: 1400px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.about {
+    position: absolute;
+    top: 30px;
+    left: 1580px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.menu {
+    position: absolute;
+    top: 30px;
+    left: 1745px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.service {
+    position: absolute;
+    top: 30px;
+    left: 1885px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.contact {
+    position: absolute;
+    top: 30px;
+    left: 2040px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.website {
+    position: absolute;
+    top: 175px;
+    left: 310px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 125px;
+    color: #ff702a;
+}
+
+.homes img{
+    position: absolute;
+    top: 200px;
+    left: 1300px;
+    width: 650px;
+    height: 650px;
+}
+
+.thing {
+    position: absolute;
+    top: 435px;
+    left: 315px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 45px;
+    color: #fff;
+}
+
+.cuadrito {
+    position: absolute;
+    width: 270px;
+    height: 60px;
+    border: 5px solid #ff702a;
+    background-color: #ff702a;
+    top: 640px;
+    left: 315px;
+}
+
+.today {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 33px;
+    color: #fff;
+    top: 620px;
+    left: 335px;
+}
+
+.aboutimg img {
+    position: absolute;
+    top: 1295px;
+    left: 330px;
+    width: 680px;
+    height: 680px;
+}
+
+.us {
+    position: absolute;
+    top: 1310px;
+    left: 1210px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 35px;
+    color: #ff702a;
+}
+
+.we {
+    position: absolute;
+    top: 1330px;
+    left: 1210px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 70px;
+    color: #fff; 
+}
+
+.point {
+    position: absolute;
+    top: 1560px;
+    left: 1210px;
+    font-family: estaEs;
+    font-size: 31.5px;
+    color: #fff; 
+}
+
+.cuadrito2 {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    border: 5px solid #ff702a;
+    background-color: #ff702a;
+    top: 1740px;
+    left: 1210px;
+}
+
+.learn {
+    position: absolute;
+    font-family: estaEs;
+    font-size: 30px;
+    color: #fff;
+    top: 1725px;
+    left: 1250px;
+}
+
+.fmenu {
+    position: absolute;
+    top: 2210px;
+    left: 1020px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 35px;
+    color: #ff702a;
+}
+
+.fresh {
+    position: absolute;
+    top: 2225px;
+    left: 575px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 75px;
+    color: #fff;
+}
+
+.marco1 img {
+    position: absolute;
+    top: 2515px;
+    left: 300px;
+    width: 520px;
+    height: 520px;
+}
+
+.food1 img {
+    position: absolute;
+    top: 2550px;
+    left: 380px;
+    width: 370px;
+    height: 350px;
+}
+
+.chicken {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 30px;
+    color: #000;
+    top: 2850px;
+    left: 450px;
+}
+
+.tasty {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 25px;
+    color: #000;
+    top: 2907px;
+    left: 490px;
+}
+
+.once {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 25px;
+    color: #ff702a;
+    top: 2940px;
+    left: 520px; 
 }
