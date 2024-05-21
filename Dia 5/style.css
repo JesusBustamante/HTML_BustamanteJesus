@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=estaEs:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @font-face {
     font-family: estaEs;
     src: url(font/Cascadia.ttf);
@@ -8,7 +6,7 @@
 body {
     background-color: #1e1d2b;
     width: 1920px;
-    height: 4000px;
+    height: 6000px;
 }
 
 
@@ -27,6 +25,11 @@ body {
     left: 1400px;
     font-family: 'estaEs', sans-serif;
     font-size: 30px;
+    color: #fff;
+}
+
+:any-link {
+    text-decoration: none;
     color: #fff;
 }
 
@@ -224,4 +227,226 @@ body {
     color: #ff702a;
     top: 2940px;
     left: 520px; 
+}
+
+.marco2 img {
+    position: absolute;
+    top: 2515px;
+    left: 860px;
+    width: 520px;
+    height: 520px;
+}
+
+.food2 img {
+    position: absolute;
+    top: 2540px;
+    left: 935px;
+    width: 370px;
+    height: 350px;
+}
+
+.special {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 30px;
+    color: #000;
+    top: 2850px;
+    left: 960px; 
+}
+
+.tasty2 {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 25px;
+    color: #000;
+    top: 2907px;
+    left: 1055px;
+}
+
+.once2 {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 25px;
+    color: #ff702a;
+    top: 2940px;
+    left: 1083px; 
+}
+
+.marco3 img {
+    position: absolute;
+    top: 2515px;
+    left: 1400px;
+    width: 520px;
+    height: 520px;
+} 
+
+.food3 img {
+    position: absolute;
+    top: 2540px;
+    left: 1480px;
+    width: 340px;
+    height: 320px;
+}
+
+.fry {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 30px;
+    color: #000;
+    top: 2850px;
+    left: 1520px;
+}
+
+.tasty3 {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 25px;
+    color: #000;
+    top: 2907px;
+    left: 1590px;
+}
+
+.once3 {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 25px;
+    color: #ff702a;
+    top: 2940px;
+    left: 1620px; 
+}
+
+.services {
+    position: absolute;
+    top: 3270px;
+    left: 1020px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 35px;
+    color: #ff702a;
+}
+
+.provide {
+    position: absolute;
+    top: 3320px;
+    left: 480px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 75px;
+    color: #fff;
+}
+
+.s1 img {
+    position: absolute;
+    top: 3530px;
+    left: 350px;
+    height: 340px;
+    width: 340px;
+}
+
+.s2 img{
+    position: absolute;
+    top: 3530px;
+    left: 950px;
+    height: 340px;
+    width: 340px;
+}
+
+
+.s3 img {
+    position: absolute;
+    top: 3530px;
+    left: 1590px;
+    height: 310px;
+    width: 310px;
+}
+
+.order {
+    position: absolute;
+    top: 3820px;
+    left: 450px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 40px;
+    color: #ff702a;
+}
+
+.shipping {
+    position: absolute;
+    top: 3820px;
+    left: 1030px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 40px;
+    color: #ff702a;
+}
+
+.dellvered {
+    position: absolute;
+    top: 3820px;
+    left: 1655px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 40px;
+    color: #ff702a;
+}
+
+.text1 {
+    position: absolute;
+    text-align: center;
+    top: 3890px;
+    left: 170px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 35px;
+    color: #fff;  
+}
+
+.text2 {
+    position: absolute;
+    text-align: center;
+    top: 3890px;
+    left: 800px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 35px;
+    color: #fff;  
+}
+
+.text3 {
+    position: absolute;
+    text-align: center;
+    top: 3890px;
+    left: 1430px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 35px;
+    color: #fff;  
+}
+
+.rectangle img {
+    position: absolute;
+    top: 4250px;
+    left: 140px;
+    width: 2000px;
+}
+
+.text4 {
+    position: absolute;
+    text-align: center;
+    top: 4300px;
+    left: 650px;
+    font-family: 'estaEs', sans-serif;
+    font-size: 80px;
+    color: #000;  
+}
+
+.cuadro {
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    border: 5px solid #ff702a;
+    background-color: #ff702a;
+    top: 4640px;
+    left: 990px;
+}
+
+.more {
+    position: absolute;
+    font-family: 'estaEs', sans-serif;
+    font-size: 30px;
+    top: 4627px;
+    left: 1035px;
+    color: #fff;
 }
