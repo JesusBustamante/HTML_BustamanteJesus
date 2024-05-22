@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'regular';
+    src: url(font/MYRIADPRO-REGULAR.woff);
+}
+
+@font-face {
+    font-family: 'plight';
+    src: url(font/MyriadPro-Light.woff);
+}
+
+.ventana img {
+    position: absolute;
+    top: 174px;
+    left: 0px;
+    width: 1920px;
+    height: 1100px;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1918px;
+    height: 174px;
+    border: 1px solid #346bcc;
+    background-color: #346bcc;
+    z-index: 1;
+}
+
+.logo img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.inicio {
+    position: absolute;
+    top: 35px;
+    left: 280px;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'plight';
+}
+
+.tramites {
+    position: absolute;
+    top: 35px;
+    left: 520px;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'plight';
+}
+
+.contacto {
+    position: absolute;
+    top: 35px;
+    left: 1270px;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'regular';
+}
+
+.borde {
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 300px;
+    height: 60px;
+    top: 60px;
+    left: 1520px;
+}
+
+.consultar {
+    position: absolute;
+    top: 35px;
+    left: 1600px;
+    color: #000;
+    font-size: 35px;
+    font-family: 'regular';
+}
+
+.rectangle img {
+    position: absolute;
+    top: 208px;
+    left: 167px;
+    width: 1545px;
+    height: 870px;
+    background: transparent url('img/Rectangle 12.png') 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.Dian {
+    position: absolute;
+    top: 240px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+    background: transparent url('img/Dian.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.icon {
+    position: absolute;
+    top: 359px;
+    left: 845px;
+    width: 231px;
+    height: 231px;
+    background: transparent url('img/Icon ionic-ios-checkmark-circle.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.solicitud {
+    position: absolute;
+    font-family: 'regular';
+    font-size: 39px;
+    color: #000;
+    top: 624px;
+    left: 785px;
+    width: 350px;
+    height: 39px;
+}
+
+.proceso {
+    position: absolute;
+    font-family: 'regular';
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+    top: 697px;
+    left: 460px;
+    width: 1000px;
+    height: 84px;
+}
+
+.muisca img {
+    position: absolute;
+    top: 830px;
+    left: 828px;
+    width: 264px;
+    height: 88px;
+    background: transparent url('img/muisca.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.cuadro {
+    position: absolute;
+    border: 1px solid gray;
+    background-color: #157ffb;
+    border-radius: 20px;
+    top: 918px;
+    left: 805px;
+    width: 311px;
+    height: 79px;
+}
+
+.texto {
+    position: absolute;
+    font-family: 'plight';
+    font-size: 22px;
+    color: #fff;
+    top: 925px;
+    left: 855px;
+}
+
+.menu2 {
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    top: 1100px;
+    left: 0px;
+    width: 1918px;
+    height: 174px;
+    border: 1px solid #346bcc;
+    background-color: #346bcc;
+}
+
+.location {
+    position: absolute;
+    top: 10px;
+    left: 410px;
+}
+
+.phone {
+    position: absolute;
+    top: 10px;
+    right: 410px;
+}
+
+.texts p {
+    position: absolute;
+    font-family: 'plight';
+    font-size: 20px;
+    color: #fff;
+    top: 30px;
+    left: 180px;
+}
+
+.texts2 p {
+    position: absolute;
+    font-family: 'plight';
+    font-size: 20px;
+    color: #fff;
+    top: 30px;
+    left: 1300px;
+}
