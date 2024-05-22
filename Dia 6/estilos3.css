@@ -8,6 +8,10 @@
     src: url(font/MyriadPro-Light.woff);
 }
 
+:any-link {
+    text-decoration: none;
+}
+
 .ventana img {
     position: absolute;
     top: 174px;
