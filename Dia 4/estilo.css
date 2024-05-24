@@ -110,10 +110,10 @@
 
 .tv {
     position: absolute;
-    top: 1106px;
-    left: 64px;
-    width: 1792px;
-    height: 567px;
+    top: 110.6vh;
+    left: 6.4vw;
+    width: 93.333vw;
+    height: auto;
     background: transparent url('img/Group 2.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
