@@ -10,26 +10,26 @@
 
 .container {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: auto;
 }
 
 
 
 #negrito {
     position: absolute;
-    top: 0px;
-    left: 2px;
+    top: 0vh;
+    left: 0.104vw;
     max-width: 100%;
     width: 100vw;
-    height: 216.094vw;
+    height: auto;
     border: 1px solid #707070;
 }
 
 .fondo img {
     position: absolute;
-    top: 0px;
-    left: 2px;
+    top: 0vh;
+    left: 0.104vw;
     max-width: 100%;
     width: 100vw;
     height: auto;
@@ -136,80 +136,80 @@
     opacity: 1;
 }
 
-.movies {
+.movies img {
     position: absolute;
-    top: 1717px;
-    left: 64px;
-    width: 1792px;
-    height: 724px;
+    top: 171.7vh;
+    left: 171.7vh;
+    width: 93.333vw;
+    height: auto;
     background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
-    border-radius: 108px;
+    border-radius: 1.8vh;
     opacity: 1;
 }
 
 .watch {
     position: absolute;
-    top: 1700px;
-    left: 135px;
-    width: 1664px;
-    height: 60px;
-    font-size: 60px;
+    top: 170vh;
+    left: 7.031vw;
+    width: 86.667vw;
+    height: auto;
+    font-size: 6vh;
     font-family: ebold;
     color: white;
     background: transparent url('img/Don’t like to watch Live? No problem , we got you covered.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
-.track {
+.track img {
     position: absolute;
-    top: 1896px;
-    left: 477px;
-    width: 181px;
-    height: 309px;
+    top: 189.6vh;
+    left: 24.844vw;
+    width: 9.427vw;
+    height: auto;
     background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
 }
 
-.redot {
+.redot img {
     position: absolute;
-    top: 1896px;
-    left: 670px;
-    width: 181px;
-    height: 309px;
+    top: 189.6vh;
+    left: 34.896vw;
+    width: 9.427vw;
+    height: auto;
     background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
 }
 
-.soul {
+.soul img {
     position: absolute;
-    top: 1896px;
-    left: 863px;
-    width: 180px;
-    height: 309px;
+    top: 189.6vh;
+    left: 44.948vw;
+    width: 9.375vw;
+    height: auto;
     background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
 }
 
-.tentacle {
+.tentacle img {
     position: absolute;
-    top: 1896px;
-    left: 1055px;
-    width: 181px;
-    height: 309px;
+    top: 189.6vh;
+    left: 54.948vw;
+    width: 9.427vw;
+    height: auto;
     background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
 }
 
-.sentinella {
+.sentinella img {
     position: absolute;
-    top: 1896px;
-    left: 1248px;
-    width: 181px;
-    height: 309px;
+    top: 189.6vh;
+    left: 65vw;
+    width: 9.427vw;
+    height: auto;
     background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
@@ -218,33 +218,33 @@
 .variety {
     position: absolute;
     text-align: center;
-    top: 2230px;
-    left: 207px;
-    width: 1492px;
-    height: 110px;
-    font-size: 49px;
+    top: 223vh;
+    left: 10.781vw;
+    width: 77.708vw;
+    height: auto;
+    font-size: 4.9vh;
     font-family: elight;
     color: white;
     opacity: 1;
 }
 
-.blue {
+.blue img {
     position: absolute;
-    top: 2467px;
-    left: 64px;
-    width: 1792px;
-    height: 567px;
+    top: 246.7vh;
+    left: 3.333vw;
+    width: 93.333vw;
+    height: auto;
     background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
-    border-radius: 108px;
+    border-radius: 1.8vh;
     opacity: 1;
 }
 
-.cancel {
+#cancel  {
     position: absolute;
-    top: 2650px;
-    left: 876px;
-    width: 169px;
-    height: 169px;
+    top: 265vh;
+    left: 45.625vw;
+    width: 8.802vw;
+    height: auto;
     background: transparent url('recursos/cancel.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -252,11 +252,11 @@
 
 .textCancel {
     position: absolute;
-    top: 2470px;
-    left: 560px;
-    width: 800px;
-    height: 60px;
-    font-size: 60px;
+    top: 247vh;
+    left: 29.167vw;
+    width: 41.667vw;
+    height: auto;
+    font-size: 6vh;
     font-family: ebold;
     color: white;
     opacity: 1;
@@ -265,11 +265,11 @@
 .cancelText {
     position: absolute;
     text-align: center;
-    top: 2840px;
-    left: 269px;
-    width: 1382px;
-    height: 88px;
-    font-size: 40px;
+    top: 284vh;
+    left: 14.01vw;
+    width: 71.979vw;
+    height: auto;
+    font-size: 4vh;
     font-family: elight;
     color: white;
     opacity: 1;
