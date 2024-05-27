@@ -1,0 +1,28 @@
+.grilla1 {
+    display: grid;
+    width: 100vw;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.terodactilo {
+    width: 10vw;
+    height: 10vh;
+}
+.letra1 {
+    width: 10vw;
+    height: 10vh;
+}
+.letra2 {
+    width: 10vw;
+    height: 10vh;
+}
+
+.trex {
+    width: 10vw;
+    height: 10vh;
+}
+
+.triceratops {
+    width: 10vw;
+    height: 10vh;
+}
