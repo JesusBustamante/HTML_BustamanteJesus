@@ -8,377 +8,382 @@
     src: url(fonts/Ember/AmazonEmber_Bd.ttf);
 }
 
-.container {
-    position: relative;
-    width: 100vw;
-    height: auto;
-}
+
+@media (min-width: 901px) {
+    .container {
+        position: relative;
+        width: 100vw;
+        height: auto;
+    }
 
 
 
-#negrito {
-    position: absolute;
-    top: 0vh;
-    left: 0.104vw;
-    max-width: 100%;
-    width: 100vw;
-    height: auto;
-    border: 1px solid #707070;
-}
+    #negrito {
+        position: absolute;
+        top: 0vh;
+        left: 0.104vw;
+        max-width: 100%;
+        width: 100vw;
+        height: auto;
+        border: 1px solid #707070;
+    }
 
-.fondo img {
-    position: absolute;
-    top: 0vh;
-    left: 0.104vw;
-    max-width: 100%;
-    width: 100vw;
-    height: auto;
-    background: transparent url('img/FondoTwitch.png') 0% 0% no-repeat padding-box;
-}
+    .fondo img {
+        position: absolute;
+        top: 0vh;
+        left: 0.104vw;
+        max-width: 100%;
+        width: 100vw;
+        height: auto;
+        background: transparent url('img/FondoTwitch.png') 0% 0% no-repeat padding-box;
+    }
 
-.search img {
-    position: absolute;
-    top: 37.5px;
-    left: 63.43px;
-    max-width: 100%;
-    width: 2.34375vw;
-    height: auto;
-}
+    .search img {
+        position: absolute;
+        top: 37.5px;
+        left: 63.43px;
+        max-width: 100%;
+        width: 2.34375vw;
+        height: auto;
+    }
 
-#logo {
-    position: absolute;
-    top: 23.5vh;
-    left: 35.938vw;
-    max-width: 100%;
-    width: 28.958vw;
-    height: auto;
-}
+    #logo {
+        position: absolute;
+        top: 23.5vh;
+        left: 35.938vw;
+        max-width: 100%;
+        width: 28.958vw;
+        height: auto;
+    }
 
-.login img {
-    position: relative;
-    top: 3vh;
-    left: 88.281vw;
-    max-width: 100%;
-    width: 10.677vw;
-    height: auto;
-}
+    .login img {
+        position: relative;
+        top: 3vh;
+        left: 88.281vw;
+        max-width: 100%;
+        width: 10.677vw;
+        height: auto;
+    }
 
-.registro img {
-    position: absolute;
-    top: 77vh;
-    left: 38.542vw;
-    width: 23.854vw;
-    height: auto;
-}
+    .registro img {
+        position: absolute;
+        top: 77vh;
+        left: 38.542vw;
+        max-width: 100%;
+        width: 23.854vw;
+        height: auto;
+    }
 
-.letra p {
-    position: absolute;
-    width: 2.604vw;
-    height: auto;
-    top: 2.5vh;
-    left: 92.344vw;
-    font-size: 2vh;
-    font-family: elight;
-    color: black;
-    opacity: 1;
-}
+    .letra p {
+        position: absolute;
+        width: 2.604vw;
+        height: auto;
+        top: 2vh;
+        left: 92.344vw;
+        font-size: 2.5vh;
+        font-family: elight;
+        color: black;
+        opacity: 1;
+    }
 
-.favorite p {
-    position: absolute;
-    text-align: left;
-    width: 59.948vw;
-    height: auto;
-    top: 45.5vh;
-    left: 20.833vw;
-    font-size: 6vh;
-    font-family: ebold;
-    color: white;
-    opacity: 1;
-}
+    .favorite p {
+        position: absolute;
+        text-align: center;
+        width: 59.948vw;
+        height: auto;
+        top: 45.5vh;
+        left: 20.833vw;
+        font-size: 6vh;
+        font-family: ebold;
+        color: white;
+        opacity: 1;
+    }
 
-.texto p {
-    position: absolute;
-    text-align: center;
-    top: 58.5vh;
-    left: 20.052vw;
-    width: 116vh;
-    height: auto;
-    font-size: 3vh;
-    font-family: elight;
-    color: white;
-    opacity: 1;
-}
+    .texto p {
+        position: absolute;
+        text-align: center;
+        top: 58.5vh;
+        left: 23vw;
+        width: 116vh;
+        height: auto;
+        font-size: 3vh;
+        font-family: elight;
+        color: white;
+        opacity: 1;
+    }
 
-.sing {
-    
-    position: absolute;
-    text-align: center;
-    top: 75.8vh;
-    left: 41.146vw;
-    width: 18.75vw;
-    height: auto;
-    font-size: 4vh;
-    font-family: elight;
-    color: black;
-    opacity: 1;
-    
-    
-}
+    .sing p {
+        
+        position: absolute;
+        text-align: center;
+        top: 75.8vh;
+        left: 41.146vw;
+        width: 18.75vw;
+        height: auto;
+        font-size: 4vh;
+        font-family: elight;
+        color: black;
+        opacity: 1;
+        
+        
+    }
 
-.tv img {
-    position: absolute;
-    top: 110.6vh;
-    left: 6.4vw;
-    width: 93.333vw;
-    height: auto;
-    max-width: 100%;
-    background: transparent url('img/Group 2.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    .tv img {
+        position: absolute;
+        top: 110.6vh;
+        left: 6.4vw;
+        width: 93.333vw;
+        height: auto;
+        max-width: 100%;
+        background: transparent url('img/Group 2.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
-.movies img {
-    position: absolute;
-    top: 171.7vh;
-    left: 171.7vh;
-    width: 93.333vw;
-    height: auto;
-    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
-    border-radius: 1.8vh;
-    opacity: 1;
-}
+    .movies img {
+        position: absolute;
+        top: 171.7vh;
+        left: 171.7vh;
+        max-width: 100%;
+        width: 93.333vw;
+        height: auto;
+        background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+        border-radius: 1.8vh;
+        opacity: 1;
+    }
 
-.watch {
-    position: absolute;
-    top: 170vh;
-    left: 7.031vw;
-    width: 86.667vw;
-    height: auto;
-    font-size: 6vh;
-    font-family: ebold;
-    color: white;
-    background: transparent url('img/Don’t like to watch Live? No problem , we got you covered.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    .watch p {
+        position: absolute;
+        top: 170vh;
+        left: 7.031vw;
+        width: 86.667vw;
+        height: auto;
+        font-size: 6vh;
+        font-family: ebold;
+        color: white;
+        background: transparent url('img/Don’t like to watch Live? No problem , we got you covered.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
-.track img {
-    position: absolute;
-    top: 189.6vh;
-    left: 24.844vw;
-    width: 9.427vw;
-    height: auto;
-    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
+    .track img {
+        position: absolute;
+        top: 189.6vh;
+        left: 24.844vw;
+        max-width: 100%;
+        width: 9.427vw;
+        height: auto;
+        background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+    }
 
-.redot img {
-    position: absolute;
-    top: 189.6vh;
-    left: 34.896vw;
-    width: 9.427vw;
-    height: auto;
-    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
+    .redot img {
+        position: absolute;
+        top: 189.6vh;
+        left: 34.896vw;
+        width: 9.427vw;
+        height: auto;
+        background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+    }
 
-.soul img {
-    position: absolute;
-    top: 189.6vh;
-    left: 44.948vw;
-    width: 9.375vw;
-    height: auto;
-    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
+    .soul img {
+        position: absolute;
+        top: 189.6vh;
+        left: 44.948vw;
+        width: 9.375vw;
+        height: auto;
+        background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+    }
 
-.tentacle img {
-    position: absolute;
-    top: 189.6vh;
-    left: 54.948vw;
-    width: 9.427vw;
-    height: auto;
-    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
+    .tentacle img {
+        position: absolute;
+        top: 189.6vh;
+        left: 54.948vw;
+        width: 9.427vw;
+        height: auto;
+        background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+    }
 
-.sentinella img {
-    position: absolute;
-    top: 189.6vh;
-    left: 65vw;
-    width: 9.427vw;
-    height: auto;
-    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
+    .sentinella img {
+        position: absolute;
+        top: 189.6vh;
+        left: 65vw;
+        width: 9.427vw;
+        height: auto;
+        background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+    }
 
-.variety {
-    position: absolute;
-    text-align: center;
-    top: 223vh;
-    left: 10.781vw;
-    width: 77.708vw;
-    height: auto;
-    font-size: 4.9vh;
-    font-family: elight;
-    color: white;
-    opacity: 1;
-}
+    .variety {
+        position: absolute;
+        text-align: center;
+        top: 223vh;
+        left: 10.781vw;
+        width: 77.708vw;
+        height: auto;
+        font-size: 4.9vh;
+        font-family: elight;
+        color: white;
+        opacity: 1;
+    }
 
-.blue img {
-    position: absolute;
-    top: 246.7vh;
-    left: 3.333vw;
-    width: 93.333vw;
-    height: auto;
-    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
-    border-radius: 1.8vh;
-    opacity: 1;
-}
+    .blue img {
+        position: absolute;
+        top: 246.7vh;
+        left: 3.333vw;
+        width: 93.333vw;
+        height: auto;
+        background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+        border-radius: 1.8vh;
+        opacity: 1;
+    }
 
-#cancel  {
-    position: absolute;
-    top: 265vh;
-    left: 45.625vw;
-    width: 8.802vw;
-    height: auto;
-    background: transparent url('recursos/cancel.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    #cancel  {
+        position: absolute;
+        top: 265vh;
+        left: 45.625vw;
+        width: 8.802vw;
+        height: auto;
+        background: transparent url('recursos/cancel.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
 
-.textCancel {
-    position: absolute;
-    top: 247vh;
-    left: 29.167vw;
-    width: 41.667vw;
-    height: auto;
-    font-size: 6vh;
-    font-family: ebold;
-    color: white;
-    opacity: 1;
-}
+    .textCancel {
+        position: absolute;
+        top: 247vh;
+        left: 29.167vw;
+        width: 41.667vw;
+        height: auto;
+        font-size: 6vh;
+        font-family: ebold;
+        color: white;
+        opacity: 1;
+    }
 
-.cancelText {
-    position: absolute;
-    text-align: center;
-    top: 284vh;
-    left: 14.01vw;
-    width: 71.979vw;
-    height: auto;
-    font-size: 4vh;
-    font-family: elight;
-    color: white;
-    opacity: 1;
-}
+    .cancelText {
+        position: absolute;
+        text-align: center;
+        top: 284vh;
+        left: 14.01vw;
+        width: 71.979vw;
+        height: auto;
+        font-size: 4vh;
+        font-family: elight;
+        color: white;
+        opacity: 1;
+    }
 
-.device {
-    position: absolute;
-    text-align: center;
-    top: 2960px;
-    left: 418px;
-    width: 1118px;
-    height: 125px;
-    font-size: 125px;
-    font-family: elight;
-    color: white;
-    opacity: 1;
-}
+    .device {
+        position: absolute;
+        text-align: center;
+        top: 296vh;
+        left: 21.771vw;
+        width: 58.229vw;
+        height: auto;
+        font-size: 12.5vh;
+        font-family: elight;
+        color: white;
+        opacity: 1;
+    }
 
-.range {
-    position: absolute;
-    text-align: center;
-    top: 3230px;
-    left: 181px;
-    width: 1544px;
-    height: 99px;
-    font-size: 45px;
-    font-family: elight;
-    color: white;
-    opacity: 1;
-}
+    .range {
+        position: absolute;
+        text-align: center;
+        top: 323vh;
+        left: 9.427vw;
+        width: 80.417vw;
+        height: auto;
+        font-size: 4.5vh;
+        font-family: elight;
+        color: white;
+        opacity: 1;
+    }
 
-.mac {
-    position: absolute;
-    top: 3440px;
-    left: 685px;
-    width: 584px;
-    height: 534px;
-    background: transparent url('recursos/mac.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    .mac img {
+        position: absolute;
+        top: 344vh;
+        left: 35.677vw;
+        width: 35.677vw;
+        height: auto;
+        background: transparent url('recursos/mac.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
-.iphone {
-    position: absolute;
-    top: 3606px;
-    left: 386px;
-    width: 256px;
-    height: 219px;
-    background: transparent url('recursos/iphone.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    .iphone img {
+        position: absolute;
+        top: 360.6vh;
+        left: 20.104vw;
+        width: 13.333vw;
+        height: auto;
+        background: transparent url('recursos/iphone.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
-.pc {
-    position: absolute;
-    top: 3587px;
-    left: 1261px;
-    width: 271px;
-    height: 238px;
-    background: transparent url('recursos/pc.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    .pc img {
+        position: absolute;
+        top: 358.7vh;
+        left: 65.677vw;
+        width: 14.115vw;
+        height: auto;
+        background: transparent url('recursos/pc.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
-.flecha {
-    position: absolute;
-    top: 3689px;
-    left: 305px;
-    width: 19px;
-    height: 27px;
-    transform: matrix(0.03, 1, 0.03, 0, 0);
-    background: transparent url('recursos/Flecha.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    .flecha {
+        position: absolute;
+        top: 368.9vh;
+        left: 15.885vw;
+        width: 0.99vw;
+        height: auto;
+        background: transparent url('recursos/Flecha.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
-.flecha2 {
-    position: absolute;
-    top: 3702px;
-    left: 1575px;
-    width: 18px;
-    height: 26px;
-    transform: rotate(180deg);
-    background: transparent url('recursos/Flecha.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    .flecha2 img {
+        position: absolute;
+        top: 370.2vh;
+        left: 82.031vw;
+        width: 0.938vw;
+        height: auto;
+        transform: rotate(180deg);
+        background: transparent url('recursos/Flecha.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
-.cace {
-    position: absolute;
-    top: 3954px;
-    left: 826px;
-    width: 430px;
-    height: 241px;
-    background: transparent url('img/Logo CACE Invertido UP.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    .cace img {
+        position: absolute;
+        top: 395.4vh;
+        left: 43.021vw;
+        width: 22.396vw;
+        height: auto;
+        background: transparent url('img/Logo CACE Invertido UP.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
-.poweredby {
-    position: absolute;
-    top: 3979px;
-    left: 843px;
-    width: 92px;
-    height: 20px;
-    background: transparent url('img/Powered by.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    .poweredby img {
+        position: absolute;
+        top: 397.9vh;
+        left: 43.906vw;
+        width: 4.792vw;
+        height: auto;
+        background: transparent url('img/Powered by.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
-.terms {
-    position: absolute;
-    top: 4088px;
-    left: 543px;
-    width: 831px;
-    height: 25px;
-    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    .terms img {
+        position: absolute;
+        top: 408.8vh;
+        left: 28.281vw;
+        width: 43.281vw;
+        height: auto;
+        background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 }
