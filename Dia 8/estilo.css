@@ -5,135 +5,88 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    gap: 30px;
+    gap: 3%;
     background-color: black;
-    border-radius: 10px;
-    padding: 30px;
-  }
-  
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 0px 0;
-    margin: 0px;
-    font-size: 30px;
-    border-radius: 10px;
-  }
-  
-  .item1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    width: 50vw;
-    height: 68vh;
+    border-radius: 3%;
+    padding: 10%;
+    width: 100%;
+    max-width: 100vw;
   }
 
   #uno {
-    border-radius: 10px;
-    width: 50vw;
-    height: 68vh;
-  }
-
-  .item3 {
     grid-column-start: 1;
     grid-column-end: 2;
-    width: 50vw;
-    height: 68vh;
+    border-radius: 3%;
+    width: 100%;
   }
+
 
   #dos {
-    border-radius: 10px;
-    width: 50vw;
-    height: 68vh;
-  }
-
-  .item2 img {
-    border-radius: 10px;
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-    width: 42vw;
-    height: 140vh;
-    }
-
-  .item2 {
-    border-radius: 10px;
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-    width: 42vw;
-    height: 140vh;
-  }
-
-  .item8 {
     grid-column-start: 1;
-    grid-column-end: 3;
-    width: 95vw;
+    grid-column-end: 2;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  #letrica {
+    border-radius: 10px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    width: 100%;
   }
 
   #trex {
     border-radius: 10px;
-    grid-row: 3 / span 4;
-    grid-column: 1 / span 3;
-    width: 95vw;
+    grid-row: 3 / 4;
+    grid-column: 1 / 3;
+    width: 100%;
   }
 
 .grid-container2 {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto;
-  gap: 30px;
+  gap: 3%;
   background-color: black;
-  border-radius: 10px;
-  padding: 30px;
-  margin-top: 30px;
+  border-radius: 3%;
+  padding: 10%;
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
   }
-
-  .grid-container2 > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 0px 0;
-    margin: 0px;
-    font-size: 30px;
-    border-radius: 10px;
-  }
-
+  
   .green {
     grid-column-start: 1;
     grid-column-end: 2;
-    width: 50vw;
-    height: 68vh;
+    width: 100%;
   }
 
   .green img {
     border-radius: 10px;
-    width: 50vw;
-    height: 68vh;
+    width: 100%;
   }
 
   .tricer {
     grid-column-start: 1;
     grid-column-end: 2;
-    width: 50vw;
-    height: 68vh;
+    width: 100%;
   }
 
   #tricer {
     border-radius: 10px;
-    width: 50vw;
-    height: 68vh;
+    width: 100%;
   }
 
   .collage {
     border-radius: 10px;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
-    width: 42vw;
-    height: 140vh;
+    width: 100%;
   }
 
   .collage img {
     border-radius: 10px;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
-    width: 42vw;
-    height: 140vh;
+    width: 100%;
   }
