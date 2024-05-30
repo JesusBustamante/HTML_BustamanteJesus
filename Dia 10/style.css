@@ -1,0 +1,52 @@
+@font-face {
+    font-family: north;
+    src: url(fonts/HoxtonNorthTrial-Bold-BF63c8981406eaa.otf);
+}
+
+body {
+    margin: auto;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#f0ecf4, gray);
+    overflow: hidden;
+}
+
+.barra {
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+}
+
+#user {
+    position: absolute;
+    top: 2.25vh;
+    left: 95vw;
+    width: 2.5vw;
+    height: 5vh;
+}
+
+#options {
+    position: absolute;
+    top: 2.25vh;
+    left: 7vw;
+    width: 2.5vw;
+    height: 5vh;
+}
+
+.sidebar {
+    width: 5.625vw;
+    height: 100vh;
+    background-color: white;
+}
+
+#dashboard {
+    position: absolute;
+    color: black;
+    font-size: 5vh;
+    font-family: north;
+    top: 9vh;
+    left: 7vw;
+}
