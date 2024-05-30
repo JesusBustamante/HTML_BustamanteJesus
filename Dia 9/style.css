@@ -1,6 +1,181 @@
-.container img {
-    width: 100vw;
+.container {
+    width: 100%;
     height: 100%;
-    background-image: url(img/paisaje.jpg);
-    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#paisaje {
+    width: 100%;
+    height: 100%;
+}
+
+#nubesita {
+    position: absolute;
+    width: 40vw;
+    height: 25vh;
+    top: 5vh;
+    left: 1500px;
+    animation: nubesita 5s linear;
+    animation-delay: 4s;
+}
+
+
+@keyframes nubesita {
+    0% { transform: translateX(0px); }
+  25% { transform: translateX(-1300px); }
+  50% { transform: translateX(-1300px); }
+  90% { transform: translateX(-1300px); }
+  100% { transform: translateX(-2000px) ;}
+}
+
+.contenedor-gotas {
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+}
+
+.gotas {
+    position: absolute;
+    width: 1vw;
+    height: 2vh;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+
+.gotas:nth-child(5) {
+    left: 35%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 5.5s;
+    animation-iteration-count: 2;
+}
+.gotas:nth-child(6) {
+    left: 38%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 6s;
+    animation-iteration-count: 2;
+}
+.gotas:nth-child(7) {
+    left: 37%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 5.6s;
+    animation-iteration-count: 2;
+}
+.gotas:nth-child(8) {
+    left: 42%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 5.5s;
+    animation-iteration-count: 2;
+}
+.gotas:nth-child(9) {
+    left: 46%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 6.2s;
+    animation-iteration-count: 2;
+}
+.gotas:nth-child(10) {
+    left: 33%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 5.5s;
+    animation-iteration-count: 2;
+}
+.gotas:nth-child(11) {
+    left: 46%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 5.7s;
+    animation-iteration-count: 2;
+}
+.gotas:nth-child(12) {
+    left: 32%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 5.9s;
+    animation-iteration-count: 2;
+}
+.gotas:nth-child(13) {
+    left: 45%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 5.3s;
+    animation-iteration-count: 2;
+}
+.gotas:nth-child(14) {
+    left: 40%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 5.8s;
+    animation-iteration-count: 2;
+}
+.gotas:nth-child(15) {
+    left: 37%;
+    animation: caida-gota 1s linear infinite;
+    animation-delay: 6s;
+    animation-iteration-count: 2;
+}
+
+@keyframes caida-gota {
+    0% { top: 26% }
+    100% { top: 100%; }
+}
+
+#flor {
+    position: absolute;
+    top: 100vh;
+    left: 35vw;
+    width: 15vw;
+    animation: florecita 2s linear forwards;
+    animation-delay: 9s;
+}
+
+@keyframes florecita {
+    0% { transform: translatey(0vh); }
+  100% { transform: translatey(-30vh) ;}
+}
+
+
+#tres {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: black;
+    opacity: 0;
+    font-size: 10vh;
+    animation: uno 1s linear;
+}
+
+#dos {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: black;
+    opacity: 0;
+    font-size: 10vh;
+    animation: uno 1s linear;
+    animation-delay: 1s;
+}
+
+#uno {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: black;
+    opacity: 0;
+    font-size: 10vh;
+    animation: uno 1s linear;
+    animation-delay: 2s;
+}
+
+#accion {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    color: black;
+    opacity: 0;
+    opacity: 0px;
+    font-size: 10vh;
+    animation: uno 1s linear;
+    animation-delay: 3s;
+}
+
+@keyframes uno {
+    0% {opacity: 0; transform: translateY(0vh); }
+    90% {opacity: 1;}
+  100% {opacity: 0; transform: translateY(-30vh) ;}
 }
