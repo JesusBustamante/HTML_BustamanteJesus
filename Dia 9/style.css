@@ -15,7 +15,7 @@
     width: 40vw;
     height: 35vh;
     top: 5vh;
-    left: 1500px;
+    left: 2000px;
     animation: nubesita 5s linear;
     animation-delay: 4s;
 }
@@ -23,10 +23,10 @@
 
 @keyframes nubesita {
     0% { transform: translateX(0px); }
-  25% { transform: translateX(-1300px); }
-  50% { transform: translateX(-1300px); }
-  90% { transform: translateX(-1300px); }
-  100% { transform: translateX(-2000px) ;}
+  25% { transform: translateX(-1600px); }
+  50% { transform: translateX(-1600px); }
+  90% { transform: translateX(-1600px); }
+  100% { transform: translateX(-2500px) ;}
 }
 
 .contenedor-gotas {
@@ -39,8 +39,6 @@
     position: absolute;
     width: 1vw;
     height: 2vh;
-    background-color: blue;
-    border-radius: 50%;
 }
 
 
@@ -169,7 +167,6 @@
     left: 45%;
     color: black;
     opacity: 0;
-    opacity: 0px;
     font-size: 10vh;
     animation: uno 1s linear;
     animation-delay: 3s;
