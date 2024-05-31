@@ -3,14 +3,20 @@
     src: url(fonts/HoxtonNorthTrial-Bold-BF63c8981406eaa.otf);
 }
 
+@font-face {
+    font-family: nlight;
+    src: url(fonts/HoxtonNorthTrial-Light-BF63c89814351b0.otf);
+}
+
 body {
     margin: auto;
 }
 
 .container {
+    position: relative;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(#f0ecf4, gray);
+    background: #f0ecf4;
     overflow: hidden;
 }
 
@@ -36,17 +42,207 @@ body {
     height: 5vh;
 }
 
-.sidebar {
-    width: 5.625vw;
-    height: 100vh;
-    background-color: white;
-}
-
-#dashboard {
+.grid-container {
     position: absolute;
-    color: black;
-    font-size: 5vh;
-    font-family: north;
-    top: 9vh;
-    left: 7vw;
-}
+    top: 0vh;
+    left: 0vw;
+    display: grid;
+    grid-template-columns: 0fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1%;
+    border-radius: 20px;
+    width: 98vw;
+    height: 99vh;
+    max-width: 100%;
+
+    }
+
+    .grid-container > div {
+        border-radius: 10px;
+        height: 20vh;
+    }
+
+    .nose {
+        position: relative;
+        grid-column: 2/3;
+        margin-top: 7vh;
+    }
+
+    #dashboard {
+        position: relative;
+        color: black;
+        font-size: 5vh;
+        font-family: north;
+        top: 4vh;
+    }
+
+    #dash {
+        position: absolute;
+        color: #858489;
+        top: 13vh;
+    }
+    
+    #home {
+        color: blue;
+        opacity: 1;
+    }
+
+    #uno {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin-top: -20vw;
+        background-color: white;
+    }
+
+    #mil {
+        position: absolute;
+        font-size: 3vh;
+        margin-top: -2.5vh;
+        margin-left: 2vh;
+        font-family: north;
+    }
+
+    #traffic {
+        position: absolute;
+        font-size: 2vh;
+        margin-top: 1vh;
+        margin-left: 2vh;
+        font-family: north;
+    }
+
+    #porciento {
+        position: absolute;
+        top: 43vh;
+        margin-left: 2vh;
+        font-family: north;
+        font-size: 1.6vh;
+    }
+
+    #up {
+        position: relative;
+        margin-top: 2vh;
+        margin-left: 18vw;
+        width: 1.5vw;
+    }
+
+    #down {
+        position: relative;
+        margin-top: 2vh;
+        margin-left: 18vw;
+        width: 1.5vw;
+    }
+
+    #dos {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        margin-top: -20vw;
+        background-color: white;
+    }
+
+    #tres {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        margin-top: -20vw;
+        background-color: white;
+    }
+
+    #cuatro {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        margin-top: -20vw;
+        background-color: white;
+    }
+
+    #cinco {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row: 2 / 3;
+        width: 100%;
+        margin-left: 0vw;
+        margin-top: 23vh;
+        background-color: white;
+    }
+
+    #sales {
+        font-family: north;
+        font-size: 3vh;
+        margin-left: 2vh;
+        margin-top: 4.5vh;
+    } 
+
+    #world {
+        font-family: north;
+        font-size: 5vh;
+        margin-left: 2vh;
+    }
+
+    #sidebar {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 5.525vw;
+        height: 99.7vh;
+        margin-top: -71vh;
+        margin-left: 0vw;
+        border-radius: 0;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #sidebar:hover {
+        width: 15vw;
+    }
+
+    .board1 {
+        position: absolute;
+        margin-top: 16vh;
+        margin-left: 1.2vw;
+        width: 3vw;
+        height: 6vh;
+        background-color: #1369ed;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+
+    .board1:hover  {
+        width: 13vw;
+    }
+
+    #board {
+        position: relative;
+        margin-top: 1vh;
+        margin-left: 0.5vw;
+
+    }
+
+    #elements {
+        position: absolute;
+        margin-top: 29vh;
+        margin-left: 1.7vw;
+    }
+
+    #chart {
+        position: absolute;
+        margin-top: 35vh;
+        margin-left: 1.7vw;
+    }
+
+    #widget {
+        position: absolute;
+        margin-top: 41vh;
+        margin-left: 1.7vw;
+    }
+
+    #table {
+        position: absolute;
+        margin-top: 53vh;
+        margin-left: 1.7vw;
+    }
+
+    #forms {
+        position: absolute;
+        margin-top: 60vh;
+        margin-left: 1.7vw;
+    }
+
+    
