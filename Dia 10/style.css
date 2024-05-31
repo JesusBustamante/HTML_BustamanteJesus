@@ -16,14 +16,16 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
+    display: grid;
     background: #f0ecf4;
-    overflow: hidden;
+    overflow: hidde;
 }
 
 .barra {
     width: 100vw;
     height: 10vh;
     background-color: white;
+    grid-column-start: 2;
 }
 
 #user {
@@ -184,50 +186,28 @@ body {
         margin-left: 2vh;
     }
 
-    .selec {
-        position: absolute;
-        display: flex;
-        justify-content: space-between;
-        width: 60%;
-        margin: 0.5rem;
+  
+    
+    
+
+    #opt-in {
+        margin-left: 10vw;
     }
-
-    div,
-select img {
-  margin: 8px;
-}
-
-/* Etiquetas para entradas marcadas */
-input:checked + label img {
-  color: red;
-}
-
-/* Elemento Radio, cuando está marcado */
-input[type="radio"]:checked img {
-  box-shadow: 0 0 0 3px orange;
-}
-
-/* Elemento Checkbox, cuando está marcado */
-input[type="checkbox"]:checked img {
-  box-shadow: 0 0 0 3px hotpink;
-}
-
-/* Elementos Option, cuando se seleccionan */
-option:checked img {
-  box-shadow: 0 0 0 3px lime;
-  color: red;
-}
+    
+    label {
+        cursor: pointer;
+    }
 
     #sidebar {
         position: relative;
         grid-column-start: 1;
-        grid-column-end: 2;
+
         width: 5.525vw;
         height: 99.7vh;
-        margin-top: -71vh;
         margin-left: 0vw;
         border-radius: 0;
         background-color: white;
+        grid-row-start: 1;
     }
 
     #sidebar:hover .board1 {
