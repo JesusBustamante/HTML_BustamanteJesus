@@ -36,7 +36,7 @@ body {
 
 #options {
     position: absolute;
-    top: 2.25vh;
+    top: 2.7vh;
     left: 7vw;
     width: 2.5vw;
     height: 5vh;
@@ -186,11 +186,45 @@ body {
         margin-left: 0vw;
         border-radius: 0;
         background-color: white;
-        transition: 0.5s;
+    }
+
+    #sidebar:hover .board1 {
+        width: 13vw;
     }
 
     #sidebar:hover {
         width: 15vw;
+    }
+
+    #smile {
+        position: absolute;
+        top: 1.1vh;
+        left: 1.66vw;
+    }
+
+    #smiles {
+        position: absolute;
+        color: #1369ed;
+        top: 1.3vh;
+        left: 4vw;
+        font-size: 5vh;
+        font-family: north;
+    }
+
+    #sidebar span {
+        display: none;
+        white-space: nowrap;
+    }
+
+    #sidebar:hover span{
+        display: inline;
+    }
+
+    #admin {
+        position: absolute;
+        top: 2.5vh;
+        left: 4vw;
+        font-family: north;
     }
 
     .board1 {
@@ -201,11 +235,6 @@ body {
         height: 6vh;
         background-color: #1369ed;
         border-radius: 10px;
-        transition: 0.5s;
-    }
-
-    .board1:hover  {
-        width: 13vw;
     }
 
     #board {
@@ -221,10 +250,34 @@ body {
         margin-left: 1.7vw;
     }
 
+    #elements:hover {
+        background-color: gray; 
+        cursor: pointer; 
+    }
+
+    #element {
+        position: absolute;
+        top: 30.5vh;
+        left: 5.5vw;
+        font-family: north;
+    }
+
     #chart {
         position: absolute;
         margin-top: 35vh;
         margin-left: 1.7vw;
+    }
+
+    #chart:hover {
+        background-color: gray; 
+        cursor: pointer; 
+    }
+
+    #charts {
+        position: absolute;
+        top: 36.5vh;
+        left: 5.5vw;
+        font-family: north;
     }
 
     #widget {
@@ -233,16 +286,52 @@ body {
         margin-left: 1.7vw;
     }
 
+    #widget:hover {
+        background-color: gray; 
+        cursor: pointer; 
+    }
+
+    #widgets {
+        position: absolute;
+        top: 42.5vh;
+        left: 5.5vw;
+        font-family: north;
+    }
+
     #table {
         position: absolute;
         margin-top: 53vh;
         margin-left: 1.7vw;
     }
 
+    #table:hover {
+        background-color: gray; 
+        cursor: pointer; 
+    }
+
+    #tables {
+        position: absolute;
+        top: 54.5vh;
+        left: 5.5vw;
+        font-family: north;
+    }
+
     #forms {
         position: absolute;
         margin-top: 60vh;
         margin-left: 1.7vw;
+    }
+
+    #forms:hover {
+        background-color: gray; 
+        cursor: pointer; 
+    }
+
+    #form {
+        position: absolute;
+        top: 61.5vh;
+        left: 5.5vw;
+        font-family: north;
     }
 
     
