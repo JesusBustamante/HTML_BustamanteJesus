@@ -16,16 +16,14 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    display: grid;
     background: #f0ecf4;
-    overflow: hidde;
+    overflow: hidden;
 }
 
 .barra {
     width: 100vw;
     height: 10vh;
     background-color: white;
-    grid-column-start: 2;
 }
 
 #user {
@@ -186,36 +184,35 @@ body {
         margin-left: 2vh;
     }
 
-  
-    
-    
-
-    #opt-in {
-        margin-left: 10vw;
-    }
-    
-    label {
-        cursor: pointer;
-    }
 
     #sidebar {
         position: relative;
         grid-column-start: 1;
-
+        grid-column-end: 2;
         width: 5.525vw;
         height: 99.7vh;
+        margin-top: -71vh;
         margin-left: 0vw;
         border-radius: 0;
         background-color: white;
-        grid-row-start: 1;
     }
 
-    #sidebar:hover .board1 {
-        width: 13vw;
+    #check:checked ~#sidebar span {
+        
+        white-space: nowrap;
+        display: inline;
     }
 
-    #sidebar:hover {
+    #check:checked ~#sidebar {
         width: 15vw;
+        height: 100vh;
+        animation-name: nose;
+        animation-duration: 1s;
+    }
+
+    @keyframes nose {
+        from { width: 5vw ; height: 100vh;}
+        to { width: 15vw; height: 100vh;}
     }
 
     #smile {
@@ -233,14 +230,6 @@ body {
         font-family: north;
     }
 
-    #sidebar span {
-        display: none;
-        white-space: nowrap;
-    }
-
-    #sidebar:hover span{
-        display: inline;
-    }
 
     #admin {
         position: absolute;
