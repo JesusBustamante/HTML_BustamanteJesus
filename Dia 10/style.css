@@ -42,6 +42,7 @@ body {
     height: 5vh;
 }
 
+
 .grid-container {
     position: absolute;
     top: 0vh;
@@ -90,7 +91,7 @@ body {
     #uno {
         grid-column-start: 2;
         grid-column-end: 3;
-        margin-top: -20vw;
+        margin-top: -21vw;
         background-color: white;
     }
 
@@ -142,21 +143,21 @@ body {
     #dos {
         grid-column-start: 3;
         grid-column-end: 4;
-        margin-top: -20vw;
+        margin-top: -21vw;
         background-color: white;
     }
 
     #tres {
         grid-column-start: 4;
         grid-column-end: 5;
-        margin-top: -20vw;
+        margin-top: -21vw;
         background-color: white;
     }
 
     #cuatro {
         grid-column-start: 5;
         grid-column-end: 6;
-        margin-top: -20vw;
+        margin-top: -21vw;
         background-color: white;
     }
 
@@ -182,6 +183,40 @@ body {
         font-size: 5vh;
         margin-left: 2vh;
     }
+
+    .selec {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin: 0.5rem;
+    }
+
+    div,
+select img {
+  margin: 8px;
+}
+
+/* Etiquetas para entradas marcadas */
+input:checked + label img {
+  color: red;
+}
+
+/* Elemento Radio, cuando está marcado */
+input[type="radio"]:checked img {
+  box-shadow: 0 0 0 3px orange;
+}
+
+/* Elemento Checkbox, cuando está marcado */
+input[type="checkbox"]:checked img {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+/* Elementos Option, cuando se seleccionan */
+option:checked img {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
+}
 
     #sidebar {
         position: relative;
