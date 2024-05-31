@@ -118,6 +118,13 @@ body {
         font-size: 1.6vh;
     }
 
+    #loading {
+        position: absolute;
+        width: 25vw;
+        margin-top: 2.5vh;
+        margin-left: -21.7vw;
+    }
+
     #up {
         position: relative;
         margin-top: 2vh;
@@ -227,6 +234,22 @@ body {
         font-family: north;
     }
 
+    #main {
+        position: absolute;
+        font-family: north;
+        opacity: 0.5;
+        top: 25vh;
+        left: 1vw;
+    }
+
+    #and {
+        position: absolute;
+        font-family: north;
+        opacity: 0.5;
+        top: 49vh;
+        left: 1vw;
+    }
+
     .board1 {
         position: absolute;
         margin-top: 16vh;
@@ -250,10 +273,16 @@ body {
         margin-left: 1.7vw;
     }
 
-    #elements:hover {
+    .conjunto1:hover span {
         background-color: gray; 
         cursor: pointer; 
     }
+
+    .conjunto1:hover #elements {
+        background-color: gray; 
+        cursor: pointer; 
+    }
+
 
     #element {
         position: absolute;
@@ -269,6 +298,11 @@ body {
     }
 
     #chart:hover {
+        background-color: gray; 
+        cursor: pointer; 
+    }
+
+    .conjunto1:hover #chart {
         background-color: gray; 
         cursor: pointer; 
     }
@@ -291,6 +325,11 @@ body {
         cursor: pointer; 
     }
 
+    .conjunto1:hover #widget {
+        background-color: gray; 
+        cursor: pointer; 
+    }
+
     #widgets {
         position: absolute;
         top: 42.5vh;
@@ -309,6 +348,11 @@ body {
         cursor: pointer; 
     }
 
+    .conjunto1:hover #table {
+        background-color: gray; 
+        cursor: pointer; 
+    }
+
     #tables {
         position: absolute;
         top: 54.5vh;
@@ -323,6 +367,11 @@ body {
     }
 
     #forms:hover {
+        background-color: gray; 
+        cursor: pointer; 
+    }
+
+    .conjunto1:hover #forms {
         background-color: gray; 
         cursor: pointer; 
     }
