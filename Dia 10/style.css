@@ -21,6 +21,7 @@ body {
 }
 
 .barra {
+    margin-top: -5.2vh;
     width: 100vw;
     height: 10vh;
     background-color: white;
@@ -28,7 +29,7 @@ body {
 
 #user {
     position: absolute;
-    top: 2.25vh;
+    top: -2.5vh;
     left: 95vw;
     width: 2.5vw;
     height: 5vh;
@@ -36,8 +37,8 @@ body {
 
 #options {
     position: absolute;
-    top: 2.7vh;
-    left: 7vw;
+    margin-top: 2.5vh;
+    left: 15vw;
     width: 2.5vw;
     height: 5vh;
 }
@@ -197,17 +198,12 @@ body {
         background-color: white;
     }
 
-    #check:checked ~#sidebar span {
-        
-        white-space: nowrap;
-        display: inline;
-    }
-
     #check:checked ~#sidebar {
         width: 15vw;
         height: 100vh;
         animation-name: nose;
         animation-duration: 1s;
+        transition: 1s;
     }
 
     @keyframes nose {
@@ -217,14 +213,14 @@ body {
 
     #smile {
         position: absolute;
-        top: 1.1vh;
+        top: -2vh;
         left: 1.66vw;
     }
 
     #smiles {
         position: absolute;
         color: #1369ed;
-        top: 1.3vh;
+        top: -1.8vh;
         left: 4vw;
         font-size: 5vh;
         font-family: north;
@@ -233,7 +229,7 @@ body {
 
     #admin {
         position: absolute;
-        top: 2.5vh;
+        top: 2vh;
         left: 4vw;
         font-family: north;
     }
@@ -241,22 +237,22 @@ body {
     #main {
         position: absolute;
         font-family: north;
-        opacity: 0.5;
-        top: 25vh;
+        top: 20vh;
         left: 1vw;
+        color: #858489;
     }
 
     #and {
         position: absolute;
         font-family: north;
-        opacity: 0.5;
-        top: 49vh;
+        top: 46vh;
         left: 1vw;
+        color: #858489;
     }
 
-    .board1 {
+    #board1 {
         position: absolute;
-        margin-top: 16vh;
+        top: 12vh;
         margin-left: 1.2vw;
         width: 3vw;
         height: 6vh;
@@ -264,16 +260,51 @@ body {
         border-radius: 10px;
     }
 
+    #check:checked ~#sidebar #board1 {
+        width: 13vw;
+        height: 6vh;
+        animation-name: boardsito;
+        animation-duration: 1s;
+    }
+
+    @keyframes boardsito {
+        from { width: 3vw ; height: 6h;}
+        to { width: 13vw; height: 6vh;}
+    }
+
     #board {
         position: relative;
-        margin-top: 1vh;
+        top: 1vh;
         margin-left: 0.5vw;
+    }
 
+    #check:checked ~ #sidebar .conjunto1 span {
+        display: inline;
+        opacity: 1;
+        transition: 0.5s;
+    }
+      
+    #check:not(:checked) ~ #sidebar .conjunto1 span {
+        display: none;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    #check:checked ~ #sidebar .conjunto2 span {
+        display: inline;
+        opacity: 1;
+        transition: 0.5s;
+    }
+      
+    #check:not(:checked) ~ #sidebar .conjunto2 span {
+        display: none;
+        opacity: 0;
+        transition: 0.5s;
     }
 
     #elements {
         position: absolute;
-        margin-top: 29vh;
+        margin-top: 18vh;
         margin-left: 1.7vw;
     }
 
@@ -290,14 +321,14 @@ body {
 
     #element {
         position: absolute;
-        top: 30.5vh;
+        top: 24.3vh;
         left: 5.5vw;
         font-family: north;
     }
 
     #chart {
         position: absolute;
-        margin-top: 35vh;
+        margin-top: 25vh;
         margin-left: 1.7vw;
     }
 
@@ -313,14 +344,14 @@ body {
 
     #charts {
         position: absolute;
-        top: 36.5vh;
+        top: 31.2vh;
         left: 5.5vw;
         font-family: north;
     }
 
     #widget {
         position: absolute;
-        margin-top: 41vh;
+        margin-top: 32vh;
         margin-left: 1.7vw;
     }
 
@@ -336,14 +367,14 @@ body {
 
     #widgets {
         position: absolute;
-        top: 42.5vh;
+        top: 38.1vh;
         left: 5.5vw;
         font-family: north;
     }
 
     #table {
         position: absolute;
-        margin-top: 53vh;
+        margin-top: 45vh;
         margin-left: 1.7vw;
     }
 
@@ -359,14 +390,14 @@ body {
 
     #tables {
         position: absolute;
-        top: 54.5vh;
+        top: 51.2vh;
         left: 5.5vw;
         font-family: north;
     }
 
     #forms {
         position: absolute;
-        margin-top: 60vh;
+        margin-top: 52vh;
         margin-left: 1.7vw;
     }
 
@@ -382,7 +413,7 @@ body {
 
     #form {
         position: absolute;
-        top: 61.5vh;
+        top: 58.5vh;
         left: 5.5vw;
         font-family: north;
     }
