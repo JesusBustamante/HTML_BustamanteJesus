@@ -37,8 +37,8 @@ body {
 
 #options {
     position: relative;
-    margin-top: 2.5vh;
-    left: 15vw;
+    margin-top: 10vh;
+    left: 1.4vw;
     width: 2.5vw;
     height: 5vh;
     z-index: 1;
@@ -311,6 +311,45 @@ body {
         position: absolute;
         margin-top: 18vh;
         margin-left: 1.7vw;
+        cursor: pointer;
+    }
+
+    button{
+        position: absolute;
+        margin-top: 21vh;
+        margin-left: 2vw;
+        visibility: hidden;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 1.7vw;
+        margin-top: 22vh;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
     }
 
     .conjunto1:hover span {
@@ -326,14 +365,16 @@ body {
 
     #element {
         position: absolute;
-        top: 24.3vh;
-        left: 5.5vw;
+        font-size: 2.2vh;
+        top: -1.5vh;
+        left: 3.5vw;
         font-family: north;
+        visibility: visible;
     }
 
     #chart {
         position: absolute;
-        margin-top: 25vh;
+        margin-top: 23.3vh;
         margin-left: 1.7vw;
     }
 
@@ -349,14 +390,14 @@ body {
 
     #charts {
         position: absolute;
-        top: 31.2vh;
+        top: 31.9vh;
         left: 5.5vw;
         font-family: north;
     }
 
     #widget {
         position: absolute;
-        margin-top: 32vh;
+        margin-top: 29vh;
         margin-left: 1.7vw;
     }
 
@@ -379,7 +420,7 @@ body {
 
     #table {
         position: absolute;
-        margin-top: 45vh;
+        margin-top: 41.2vh;
         margin-left: 1.7vw;
     }
 
@@ -395,14 +436,14 @@ body {
 
     #tables {
         position: absolute;
-        top: 51.2vh;
+        top: 50.2vh;
         left: 5.5vw;
         font-family: north;
     }
 
     #forms {
         position: absolute;
-        margin-top: 52vh;
+        margin-top: 47.2vh;
         margin-left: 1.7vw;
     }
 
@@ -418,9 +459,47 @@ body {
 
     #form {
         position: absolute;
-        top: 58.5vh;
-        left: 5.5vw;
+        font-size: 2vh;
+        top: -0.3vh;
+        left: 3.5vw;
         font-family: north;
+        visibility: visible;
     }
 
-    
+    .forms-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 1.7vw;
+        margin-top: 51vh;
+    }
+
+    .forms-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .forms-content a:hover {
+        background-color: #f1f1f1
+    }
+
+    .dropdown:hover .forms-content {
+        display: block;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    #button {
+        position: absolute;
+        visibility: hidden;
+        margin-top: 49vh;
+        margin-left: 2vw;
+    }
